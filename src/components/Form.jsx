@@ -59,8 +59,8 @@ const Form = ({ toast }) => {
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-      <div className="flex gap-4 items-start">
-        <div className="flex flex-col">
+      <div className="flex gap-4 items-start max-w-[448px] w-full">
+        <div className="flex flex-col w-full">
           <label htmlFor="email-input" className="hidden">
             Email
           </label>
